@@ -1,0 +1,139 @@
+:root {
+    --navy-blue:#2E2F42;
+    --iris:#4D5AE5;
+    --slate:#434455;
+    --ocean:#404BBF;
+    --white: #fff;
+    --cornflower:#E7E9FC;
+    --cloud: #F4F4FD;
+
+}
+body {
+    font-family: 'Roboto', 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;  
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
+.logo {
+    font-family: 'Raleway',sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.67;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.web {
+  color: var (--iris);
+}
+.address {
+    text-decoration: none;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var( --slate);
+}
+.address:hover,
+.address:focus {
+    color:var( --ocean);
+    text-decoration: underline;
+    text-decoration-color: var(--ocean);
+ }
+
+ .title-hero {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    color: var(--white);
+    background-color: var(--navy-blue);
+}
+
+.title-feature,
+.title-members,
+.title-products  {
+
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 20px;
+}
+
+.item-feature,
+.item-profession,
+.item-products {
+
+    line-height: 1.5;
+    font-size: 16px;
+    color: var(--slate);
+}
+
+.title-work,
+.title-team {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+   
+}
+
+.list {
+   list-style-type: none;
+
+} 
+
+.link {
+   text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+   text-decoration: underline;
+   text-decoration-color: var(--ocean);
+   color: var (--ocean);
+ }
+
+ .btn-hero {
+    background: var(--iris);
+  
+    border-radius: 4px;
+    color: var(--white);
+    cursor: pointer;
+}
+ .btn-hero:hover,
+ .brn-hero:focus {
+    background-color: var(--ocean);
+    text-decoration: underline;
+    text-decoration-color: var(--ocean);
+    color: var (--white);
+ }
+ .btn {
+    color: var(--iris);
+    border-radius: 4px;
+    background: var(--cloud);
+    border: 1px solidvar var(--cornflower);
+    border-radius: 4px;
+    cursor: pointer;
+ }
+
+ .btn:hover,
+ .brn:focus {
+    background-color: var(--ocean);
+    text-decoration: underline;
+    text-decoration-color: var(--ocean);
+    color: var(--white);
+ }
+ 
+
+ 
+
+
+ 
+    
