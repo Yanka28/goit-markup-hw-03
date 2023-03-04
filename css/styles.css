@@ -3,11 +3,11 @@
     --iris: #4D5AE5;
     --slate: #434455;
     --ocean: #404BBF;
-    --white: #fff;
+    --whiite: #ffffff;
     --cornflower: #E7E9FC;
     --cloud: #F4F4FD;
-
 }
+
 body {
     font-family: 'Roboto', 'Open Sans', sans-serif;
     font-style: normal;
@@ -59,17 +59,14 @@ body {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color: var(--white);
+    color: var(--whiite);
     background-color: var(--navy-blue);
  
 }
-.ftr{
-    background-color: ;
-}
+
 .title-feature,
 .title-members,
 .title-products  {
-
     font-weight: 500;
     line-height: 1.2;
     font-size: 20px;
@@ -126,15 +123,16 @@ body {
     border-radius: 4px;
     color: var(--white);
     cursor: pointer;
-
 }
+
  .btn-hero:hover,
  .brn-hero:focus {
     background-color: var(--ocean);
     text-decoration: underline;
     text-decoration-color: var(--ocean);
-    color: var (--white);
+    color: var(--white);
  }
+
  .btn {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -144,7 +142,7 @@ body {
     color: var(--iris);
     border-radius: 4px;
     background: var(--cloud);
-    border: 1px solidvar var(--cornflower);
+    border: 1px solid var(--cornflower);
     border-radius: 4px;
     cursor: pointer;
  }
@@ -154,12 +152,12 @@ body {
     background-color: var(--ocean);
     text-decoration: underline;
     text-decoration-color: var(--ocean);
-    color: var(--white);
+    color: var(--whiite);
  }
  
 .footer{
     background-color: var(--navy-blue);
-    color:var(--cloud);
+    color: var(--cloud);
 }
 .studio-footer {
     color: var(--cloud);
