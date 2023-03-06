@@ -3,13 +3,13 @@
     --iris: #4D5AE5;
     --slate: #434455;
     --ocean: #404BBF;
-    --whiite: #ffffff;
+    --white: #ffffff;
     --cornflower: #E7E9FC;
     --cloud: #F4F4FD;
 }
 
 body {
-    font-family: 'Roboto', 'Open Sans', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -23,9 +23,9 @@ body {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
+    text-decoration: none;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    text-decoration: none;
     color: var(--iris);
 }
 .studio {
@@ -59,7 +59,7 @@ body {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color: var(--whiite);
+    color: var(--white);
     background-color: var(--navy-blue);
  
 }
@@ -80,6 +80,8 @@ body {
     font-weight: 400;
     line-height: 1.5;
     font-size: 16px;
+    letter-spacing: 0.02em;
+    color: var(--slate);
   }
 
 .title-work,
@@ -105,6 +107,7 @@ body {
    text-decoration: none;
    color: var(--navy-blue);
 }
+
 
 .link:hover,
 .link:focus {
@@ -152,7 +155,7 @@ body {
     background-color: var(--ocean);
     text-decoration: underline;
     text-decoration-color: var(--ocean);
-    color: var(--whiite);
+    color: var(--white);
  }
  
 .footer{
