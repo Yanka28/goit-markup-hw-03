@@ -109,7 +109,11 @@ body {
 .list {
    list-style: none;
    font-weight: 500;
+ 
 } 
+.list-bgnd{
+    background-color: var(--cloud);
+}
 
 
 
